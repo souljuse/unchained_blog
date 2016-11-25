@@ -140,3 +140,6 @@ def home(request):
 
 def logged_out(request):
     return render(request, 'blog/logged_out.html')
+
+def custom_404(request):
+        return render_to_response('404.html')
