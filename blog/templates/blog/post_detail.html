@@ -4,7 +4,6 @@
 
 {% block content %}
 {% load emoji_tags %}
-<<<<<<< HEAD
     <div class="post">
         {% if post.published_date %}
             <div class="date">
@@ -48,9 +47,8 @@
             <p>{% post_to_facebook object_or_url "Post to Facebook!" %}</p>
             <p>{% post_to_twitter object_or_url "" %}</p>
             <p>{% send_email 'Look at this amazing post' "Check out this post! {{post.title}}. It's amazing!" object_or_url "Share via email" %}</p>
+        {% endif %}
     </div>
-=======
->>>>>>> 31b4240b056db5fdf11d2a0729ca270fc00b7475
 
 <div class="posts">
   <header class="post-header">
